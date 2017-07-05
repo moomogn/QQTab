@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="QQTabView">
+        <attr name="qqtab_width" format="dimension"/>
+        <attr name="qqtab_height" format="dimension"/>
+        <attr name="qqtab_range" format="float"/>
+        <attr name="qqtab_name" format="string"/>
+        <attr name="qqtab_imgsrc_above" format="reference"/>
+        <attr name="qqtab_imgsrc_below" format="reference"/>
+    </declare-styleable>
+
+</resources>

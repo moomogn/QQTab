@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.arno.qqtab.MainActivity">
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.arno.qqtabview.QQTabView
+            android:id="@+id/activity_main_bubble"
+            app:qqtab_range="1"
+            app:qqtab_imgsrc_above="@drawable/pre_bubble_above"
+            app:qqtab_imgsrc_below="@drawable/pre_bubble_below"
+            app:qqtab_name="消息"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1">
+
+        </com.arno.qqtabview.QQTabView>
+        <com.arno.qqtabview.QQTabView
+            android:id="@+id/activity_main_person"
+            app:qqtab_range="1"
+            app:qqtab_imgsrc_above="@drawable/pre_person_above"
+            app:qqtab_imgsrc_below="@drawable/pre_person_below"
+            app:qqtab_name="联系人"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1">
+
+        </com.arno.qqtabview.QQTabView>
+        <com.arno.qqtabview.QQTabView
+            android:id="@+id/activity_main_star"
+            app:qqtab_range="1"
+            app:qqtab_imgsrc_above="@drawable/pre_star_above"
+            app:qqtab_imgsrc_below="@drawable/pre_star_below"
+            app:qqtab_name="动态"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1">
+
+        </com.arno.qqtabview.QQTabView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

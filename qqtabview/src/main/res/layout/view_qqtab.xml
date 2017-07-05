@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:id="@+id/view_qqtab_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/view_qqtab_below_iv"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/below"
+            android:scaleType="fitXY"
+            />
+        <ImageView
+            android:id="@+id/view_qqtab_above_iv"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/above"
+            android:scaleType="fitXY"
+            />
+
+    </FrameLayout>
+    <TextView
+        android:id="@+id/view_qqtab_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        />
+
+</LinearLayout>
